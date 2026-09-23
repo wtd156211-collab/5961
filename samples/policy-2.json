@@ -1,0 +1,9028 @@
+{
+  "rules": [
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-1/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-2/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-3/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-4/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-6/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-7/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-8/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-9/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-11/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-12/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-13/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-14/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-16/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-17/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-18/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-19/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-21/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-22/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-23/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-24/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-26/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-27/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-28/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-29/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-31/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-32/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-33/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-34/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-36/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-37/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-38/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-39/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-41/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-42/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-43/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-44/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-46/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-47/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-48/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-49/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-51/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-52/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-53/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-54/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-56/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-57/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-58/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-59/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-61/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-62/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-63/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-64/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-66/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-67/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-68/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-69/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-71/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-72/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-73/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-74/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-76/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-77/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-78/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-79/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-81/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-82/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-83/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-84/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-86/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-87/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-88/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-89/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-91/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-92/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-93/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-94/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-96/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-97/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-98/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-99/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-101/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-102/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-103/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-104/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-106/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-107/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-108/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-109/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-111/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-112/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-113/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-114/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-116/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-117/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-118/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-119/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-121/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-122/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-123/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-124/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-126/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-127/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-128/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-129/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-131/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-132/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-133/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-134/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-136/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-137/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-138/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-139/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-141/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-142/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-143/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-144/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-146/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-147/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-148/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-149/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-151/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-152/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-153/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-154/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-156/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-157/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-158/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-159/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-161/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-162/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-163/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-164/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-166/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-167/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-168/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-169/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-171/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-172/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-173/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-174/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-176/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-177/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-178/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-179/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-0",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-1",
+      "path": "/teams/alpha/unit-181/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-2",
+      "path": "/teams/alpha/unit-182/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-3",
+      "path": "/teams/alpha/unit-183/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-4",
+      "path": "/teams/alpha/unit-184/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-5",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-6",
+      "path": "/teams/alpha/unit-186/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-alpha-7",
+      "path": "/teams/alpha/unit-187/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-8",
+      "path": "/teams/alpha/unit-188/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-9",
+      "path": "/teams/alpha/unit-189/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-10",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-11",
+      "path": "/teams/alpha/unit-191/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-12",
+      "path": "/teams/alpha/unit-192/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-13",
+      "path": "/teams/alpha/unit-193/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-14",
+      "path": "/teams/alpha/unit-194/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-15",
+      "path": "/teams/alpha/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-16",
+      "path": "/teams/alpha/unit-196/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-17",
+      "path": "/teams/alpha/unit-197/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-18",
+      "path": "/teams/alpha/unit-198/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-alpha-19",
+      "path": "/teams/alpha/unit-199/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-1/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-2/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-3/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-4/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-6/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-7/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-8/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-9/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-11/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-12/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-13/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-14/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-16/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-17/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-18/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-19/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-21/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-22/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-23/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-24/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-26/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-27/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-28/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-29/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-31/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-32/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-33/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-34/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-36/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-37/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-38/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-39/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-41/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-42/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-43/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-44/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-46/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-47/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-48/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-49/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-51/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-52/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-53/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-54/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-56/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-57/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-58/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-59/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-61/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-62/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-63/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-64/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-66/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-67/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-68/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-69/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-71/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-72/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-73/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-74/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-76/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-77/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-78/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-79/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-81/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-82/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-83/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-84/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-86/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-87/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-88/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-89/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-91/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-92/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-93/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-94/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-96/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-97/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-98/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-99/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-101/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-102/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-103/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-104/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-106/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-107/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-108/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-109/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-111/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-112/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-113/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-114/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-116/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-117/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-118/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-119/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-121/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-122/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-123/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-124/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-126/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-127/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-128/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-129/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-131/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-132/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-133/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-134/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-136/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-137/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-138/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-139/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-141/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-142/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-143/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-144/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-146/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-147/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-148/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-149/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-151/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-152/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-153/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-154/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-156/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-157/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-158/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-159/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-161/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-162/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-163/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-164/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-166/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-167/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-168/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-169/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-171/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-172/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-173/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-174/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-176/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-177/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-178/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-179/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-0",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-1",
+      "path": "/teams/beta/unit-181/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-2",
+      "path": "/teams/beta/unit-182/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-3",
+      "path": "/teams/beta/unit-183/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-4",
+      "path": "/teams/beta/unit-184/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-5",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-6",
+      "path": "/teams/beta/unit-186/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-beta-7",
+      "path": "/teams/beta/unit-187/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-8",
+      "path": "/teams/beta/unit-188/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-9",
+      "path": "/teams/beta/unit-189/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-10",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-11",
+      "path": "/teams/beta/unit-191/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-12",
+      "path": "/teams/beta/unit-192/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-13",
+      "path": "/teams/beta/unit-193/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-14",
+      "path": "/teams/beta/unit-194/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-15",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-16",
+      "path": "/teams/beta/unit-196/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-17",
+      "path": "/teams/beta/unit-197/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-18",
+      "path": "/teams/beta/unit-198/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-beta-19",
+      "path": "/teams/beta/unit-199/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-1/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-2/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-3/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-4/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-6/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-7/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-8/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-9/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-11/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-12/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-13/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-14/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-16/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-17/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-18/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-19/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-21/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-22/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-23/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-24/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-26/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-27/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-28/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-29/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-31/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-32/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-33/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-34/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-36/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-37/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-38/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-39/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-41/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-42/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-43/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-44/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-46/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-47/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-48/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-49/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-51/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-52/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-53/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-54/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-56/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-57/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-58/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-59/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-61/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-62/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-63/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-64/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-66/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-67/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-68/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-69/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-71/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-72/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-73/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-74/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-76/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-77/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-78/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-79/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-81/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-82/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-83/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-84/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-86/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-87/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-88/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-89/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-91/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-92/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-93/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-94/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-96/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-97/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-98/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-99/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-101/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-102/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-103/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-104/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-106/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-107/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-108/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-109/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-111/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-112/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-113/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-114/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-116/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-117/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-118/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-119/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-121/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-122/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-123/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-124/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-126/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-127/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-128/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-129/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-131/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-132/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-133/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-134/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-136/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-137/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-138/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-139/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-141/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-142/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-143/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-144/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-146/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-147/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-148/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-149/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-151/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-152/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-153/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-154/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-156/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-157/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-158/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-159/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-161/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-162/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-163/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-164/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-166/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-167/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-168/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-169/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-171/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-172/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-173/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-174/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-176/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-177/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-178/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-179/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-0",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-1",
+      "path": "/teams/gamma/unit-181/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-2",
+      "path": "/teams/gamma/unit-182/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-3",
+      "path": "/teams/gamma/unit-183/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-4",
+      "path": "/teams/gamma/unit-184/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-5",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-6",
+      "path": "/teams/gamma/unit-186/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-gamma-7",
+      "path": "/teams/gamma/unit-187/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-8",
+      "path": "/teams/gamma/unit-188/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-9",
+      "path": "/teams/gamma/unit-189/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-10",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-11",
+      "path": "/teams/gamma/unit-191/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-12",
+      "path": "/teams/gamma/unit-192/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-13",
+      "path": "/teams/gamma/unit-193/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-14",
+      "path": "/teams/gamma/unit-194/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-15",
+      "path": "/teams/gamma/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-16",
+      "path": "/teams/gamma/unit-196/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-17",
+      "path": "/teams/gamma/unit-197/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-18",
+      "path": "/teams/gamma/unit-198/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-gamma-19",
+      "path": "/teams/gamma/unit-199/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-1/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-2/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-3/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-4/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-6/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-7/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-8/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-9/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-11/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-12/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-13/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-14/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-16/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-17/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-18/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-19/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-21/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-22/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-23/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-24/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-26/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-27/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-28/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-29/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-31/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-32/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-33/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-34/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-36/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-37/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-38/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-39/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-41/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-42/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-43/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-44/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-46/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-47/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-48/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-49/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-51/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-52/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-53/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-54/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-56/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-57/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-58/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-59/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-61/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-62/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-63/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-64/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-66/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-67/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-68/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-69/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-71/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-72/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-73/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-74/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-76/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-77/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-78/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-79/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-81/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-82/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-83/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-84/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-86/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-87/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-88/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-89/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-91/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-92/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-93/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-94/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-96/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-97/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-98/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-99/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-101/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-102/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-103/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-104/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-106/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-107/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-108/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-109/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-111/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-112/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-113/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-114/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-116/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-117/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-118/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-119/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-121/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-122/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-123/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-124/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-126/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-127/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-128/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-129/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-131/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-132/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-133/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-134/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-136/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-137/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-138/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-139/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-141/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-142/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-143/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-144/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-146/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-147/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-148/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-149/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-151/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-152/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-153/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-154/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-156/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-157/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-158/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-159/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-161/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-162/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-163/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-164/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-166/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-167/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-168/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-169/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-171/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-172/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-173/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-174/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-176/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-177/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-178/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-179/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-0",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-1",
+      "path": "/teams/delta/unit-181/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-2",
+      "path": "/teams/delta/unit-182/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-3",
+      "path": "/teams/delta/unit-183/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-4",
+      "path": "/teams/delta/unit-184/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-5",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-6",
+      "path": "/teams/delta/unit-186/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-delta-7",
+      "path": "/teams/delta/unit-187/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-8",
+      "path": "/teams/delta/unit-188/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-9",
+      "path": "/teams/delta/unit-189/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-10",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-11",
+      "path": "/teams/delta/unit-191/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-12",
+      "path": "/teams/delta/unit-192/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-13",
+      "path": "/teams/delta/unit-193/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-14",
+      "path": "/teams/delta/unit-194/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-15",
+      "path": "/teams/delta/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-16",
+      "path": "/teams/delta/unit-196/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-17",
+      "path": "/teams/delta/unit-197/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-18",
+      "path": "/teams/delta/unit-198/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-delta-19",
+      "path": "/teams/delta/unit-199/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-1/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-2/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-3/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-4/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-6/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-7/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-8/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-9/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-11/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-12/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-13/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-14/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-16/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-17/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-18/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-19/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-21/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-22/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-23/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-24/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-26/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-27/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-28/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-29/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-31/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-32/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-33/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-34/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-36/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-37/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-38/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-39/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-41/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-42/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-43/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-44/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-46/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-47/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-48/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-49/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-51/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-52/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-53/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-54/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-56/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-57/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-58/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-59/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-61/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-62/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-63/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-64/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-66/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-67/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-68/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-69/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-71/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-72/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-73/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-74/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-76/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-77/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-78/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-79/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-81/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-82/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-83/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-84/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-86/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-87/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-88/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-89/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-91/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-92/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-93/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-94/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-96/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-97/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-98/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-99/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-101/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-102/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-103/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-104/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-106/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-107/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-108/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-109/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-111/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-112/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-113/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-114/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-116/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-117/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-118/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-119/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-121/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-122/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-123/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-124/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-126/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-127/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-128/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-129/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-131/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-132/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-133/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-134/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-136/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-137/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-138/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-139/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-141/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-142/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-143/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-144/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-146/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-147/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-148/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-149/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-151/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-152/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-153/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-154/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-156/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-157/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-158/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-159/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-161/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-162/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-163/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-164/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-166/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-167/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-168/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-169/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-171/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-172/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-173/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-174/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-176/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-177/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-178/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-179/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-0",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-1",
+      "path": "/teams/epsilon/unit-181/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-2",
+      "path": "/teams/epsilon/unit-182/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-3",
+      "path": "/teams/epsilon/unit-183/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-4",
+      "path": "/teams/epsilon/unit-184/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-5",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-6",
+      "path": "/teams/epsilon/unit-186/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "svc-epsilon-7",
+      "path": "/teams/epsilon/unit-187/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-8",
+      "path": "/teams/epsilon/unit-188/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-9",
+      "path": "/teams/epsilon/unit-189/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-10",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-11",
+      "path": "/teams/epsilon/unit-191/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-12",
+      "path": "/teams/epsilon/unit-192/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-13",
+      "path": "/teams/epsilon/unit-193/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-14",
+      "path": "/teams/epsilon/unit-194/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-15",
+      "path": "/teams/epsilon/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-16",
+      "path": "/teams/epsilon/unit-196/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-17",
+      "path": "/teams/epsilon/unit-197/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-18",
+      "path": "/teams/epsilon/unit-198/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "svc-epsilon-19",
+      "path": "/teams/epsilon/unit-199/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    }
+  ],
+  "delegations": [
+    {
+      "from": "svc-alpha-0",
+      "to": "svc-alpha-19",
+      "path": "/teams/alpha/unit-0/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "from": "svc-beta-0",
+      "to": "svc-beta-19",
+      "path": "/teams/beta/**",
+      "actions": [
+        "read",
+        "list"
+      ]
+    },
+    {
+      "from": "svc-gamma-0",
+      "to": "svc-gamma-19",
+      "path": "/teams/gamma/unit-0/**",
+      "actions": [
+        "read",
+        "write",
+        "list"
+      ]
+    }
+  ]
+}

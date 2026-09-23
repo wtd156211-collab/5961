@@ -1,0 +1,15 @@
+request_id,subject,path,action
+1,alice,/team/docs/secret/x,read
+2,alice,/team/docs/public/x,read
+3,alice,/team/docs/public/x,write
+4,alice,/other/x,read
+5,bob,/team/docs/public/x,read
+6,bob,/public/x,read
+7,carol,/team/docs/public/x,read
+8,carol,/team/docs/other/x,read
+9,carol,/team/finance/reports,read
+10,carol,/team/ops/reports,read
+11,dave,/team/docs/public/x,read
+12,erin,/public/x,read
+13,alice,/Team/docs/x,read
+14,bob,/team/docs/public/x,write

@@ -1,0 +1,16 @@
+invalid-delegation,3,too-broad
+invalid-delegation,4,too-broad
+1,deny,rule:3
+2,allow,rule:1
+3,allow,rule:1
+4,deny,no-rule
+5,allow,rule:1
+6,allow,rule:4
+7,allow,rule:1
+8,deny,no-rule
+9,deny,rule:6
+10,allow,rule:5
+11,deny,no-rule
+12,deny,no-rule
+13,deny,no-rule
+14,deny,no-rule

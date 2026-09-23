@@ -1,0 +1,88 @@
+{
+  "rules": [
+    {
+      "effect": "allow",
+      "subject": "alice",
+      "path": "/team/**",
+      "actions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "alice",
+      "path": "/team/docs/secret/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "alice",
+      "path": "/team/docs/secret/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "bob",
+      "path": "/public/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "allow",
+      "subject": "carol",
+      "path": "/team/*/reports",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "effect": "deny",
+      "subject": "carol",
+      "path": "/team/finance/**",
+      "actions": [
+        "read"
+      ]
+    }
+  ],
+  "delegations": [
+    {
+      "from": "alice",
+      "to": "bob",
+      "path": "/team/docs/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "from": "bob",
+      "to": "carol",
+      "path": "/team/docs/public/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "from": "carol",
+      "to": "dave",
+      "path": "/team/**",
+      "actions": [
+        "read"
+      ]
+    },
+    {
+      "from": "bob",
+      "to": "erin",
+      "path": "/public/**",
+      "actions": [
+        "read",
+        "write"
+      ]
+    }
+  ]
+}
