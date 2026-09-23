@@ -101,3 +101,44 @@ case-1 里几个关键点：同一条路径上 `allow` 与 `deny` 并存时按�
 ## 待补的文档
 
 实现完成后写清楚：策略是怎么建索引的、委托链是怎么校验与缓存的、单次判定的复杂度是多少。
+
+## 实现说明
+
+代码只有标准库：`policy_eval.py` 是库，`evaluate.py` 是命令行入口，测试在 `test_policy_eval.py`（unittest）。
+
+```bash
+python3 evaluate.py samples/policy-1.json samples/requests-1.csv   # 输出与 expected-1.txt 一致
+python3 -m unittest                                                # 跑全部测试（含 30 万次判定的性能用例）
+```
+
+库里这样用：
+
+```python
+from policy_eval import Policy
+policy = Policy.from_dict(data)          # data 即策略 JSON 反序列化后的 dict
+decision = policy.evaluate("alice", "/team/docs/x", "read")
+decision.effect   # "allow" / "deny"
+decision.reason   # "rule:<下标>" / "no-rule"
+policy.invalid_delegations               # 非法委托的下标列表（按声明顺序）
+```
+
+### 索引结构
+
+加载时按主体分桶：每个主体一棵**路径段前缀树**（trie）。字面量段走 `dict` 孩子，`*` 段走单独的通配孩子；以 `**` 结尾的规则挂在前缀终止节点的 `globstar` 列表上（命中该节点的任意延续），其余规则挂在终止节点的 `terminal` 列表上。委托展开的结果不复制规则，而是给每个主体存一份「入边表」：`(委托范围, 动作集合, 委托方)`。
+
+### 委托链的校验与缓存
+
+- 校验在建索引时一次性完成，逐条按声明顺序：第 i 条委托的 `path`/`actions` 必须被 `from` 当前已持有的某条 allow 完整覆盖（自己的规则 + 已判定合法的委托转入），路径包含按 README 的逐段规则判定；不合法则记入 `invalid_delegations`，既不生效也不参与后续校验。
+- 校验结果缓存为每个主体的入边表，求值时直接用，不改变判定结果。
+- 求值时从请求主体出发沿入边递归：只有请求落在某条委托的范围（路径 + 动作）内，该委托方（及更上游）的规则才参与本次判定——这保证「转出去的不能超过自己手里的」，链上几跳都成立；用 visited 集合防止委托成环时死循环。
+
+### 单次判定复杂度
+
+设请求路径深度为 d，主体规则构成的 trie 中，与请求路径前缀相容（字面量相等或为 `*`）的分支数为 b，命中的条目数为 m，委托入边数为 k：
+
+- 路径切分 O(d)；
+- trie 下行 O(d · b)，只访问与请求相容的节点，不扫全量规则；
+- 收集命中条目并选最具体 O(m)；
+- 委托链展开 O(k · d)，沿入边递归、每跳一次模式匹配。
+
+总体 O(d · b + m + k · d)，与策略总规则数无关。实测 30 万次判定约 0.2 秒（policy-2，1000 条规则），满足「几十万次判定 1 秒内」。同一份策略与请求跑两遍输出逐字节一致：匹配不依赖字典序以外的任何状态，优先级比较全用确定性键（非通配字符数、非通配段数、规则下标）。
